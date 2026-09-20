@@ -2,7 +2,7 @@ def main():
     print("include logical improvements")
 
 def db():
-    pass
+    print("this is the db")
 
 def ui():
     pass
