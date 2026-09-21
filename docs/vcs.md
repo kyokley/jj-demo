@@ -1,0 +1,15 @@
+---
+title: JJ FTW
+slides:
+    separator_vertical: ^\s*-v-\s*$
+plugins:
+    - name: RevealMermaid
+      extra_javascript:
+          - https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin/plugin/mermaid/mermaid.min.js
+---
+
+# JJ VCS
+
+---
+
+<img src="./pics/initial-code.png" class="r-stretch" />
