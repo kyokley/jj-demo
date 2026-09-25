@@ -1,6 +1,6 @@
 ---
-title: JJ FTW
 slides:
+    title: JJ FTW
     separator_vertical: ^\s*-v-\s*$
 plugins:
     - name: RevealMermaid
@@ -147,12 +147,12 @@ DB looks wrong. Fix it!
 -v-
 
 ## Apply fixes
-<img src="./pics/code-review-change-code.png" class="r-stretch" />
+<img src="./pics/code-review-change-graph.png" class="r-stretch" />
 
 -v-
 
 ## Apply fixes
-<img src="./pics/code-review-change-graph.png" class="r-stretch" />
+<img src="./pics/code-review-change-code.png" class="r-stretch" />
 
 ---
 
@@ -222,7 +222,9 @@ Some other highlights are:
 Unlike git, jujutsu has no
 - index/staging area
 - branches
-- merge
+- conflicts <!-- .element: class="fragment" -->
+    - ...kinda <!-- .element: class="fragment" -->
+- NO MERGE!?!? :exploding_head: <!-- .element: class="fragment" -->
 
 -v-
 
