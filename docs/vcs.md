@@ -31,13 +31,13 @@ Stacked diffs (also known as stacked pull requests or stacked branches) are a Gi
 ---
 
 ## Why
-- Merge Order
 - Smaller PRs
+- Merge Order
 - Parallel Review
 
 Notes:
-- Merge Order: Stacks must be merged bottom-up (base to top) to maintain valid dependency chains and avoid conflicts.
 - Smaller individual PRs
+- Merge Order: Stacks must be merged bottom-up (base to top) to maintain valid dependency chains and avoid conflicts.
 - Parallel Review: Reviewers can evaluate small, focused changes independently, while developers avoid idle time waiting for approvals.
 
 ---
@@ -204,7 +204,7 @@ This image got cut off
 ---
 
 ## Takeaways
-- JJ is pretty great
+- Jujutsu is pretty great
 - But no pressure!
 - Be kind to reviewers! Small targeted code reviews are best
 
@@ -220,8 +220,8 @@ Some other highlights are:
 
 ## Other Takeaways
 Unlike git, jujutsu has no
-- index/staging area
 - branches
+- index/staging area
 - conflicts <!-- .element: class="fragment" -->
     - ...kinda <!-- .element: class="fragment" -->
 - NO MERGE!?!? :exploding_head: <!-- .element: class="fragment" -->
