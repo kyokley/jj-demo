@@ -2,7 +2,7 @@ def main():
     print("include logical improvements")
 
 def db():
-    pass
+    print("make the db even more super and fast")
 
 def ui():
     pass
