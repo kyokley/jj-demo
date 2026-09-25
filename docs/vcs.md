@@ -10,7 +10,8 @@ plugins:
 
 # Jujutsu
 #### aka
-# Fat (Commit) Stacks YO
+# Fat (Commit) Stacks
+#### YO <!-- .element: class="fragment" -->
 
 ---
 
@@ -30,14 +31,20 @@ Stacked diffs (also known as stacked pull requests or stacked branches) are a Gi
 ---
 
 ## Why
-- Dependency Chain
 - Merge Order
+- Smaller PRs
 - Parallel Review
 
 Notes:
-- Dependency Chain: PR #2 branches from PR #1, PR #3 from PR #2, etc., ensuring each diff only shows the specific changes introduced by that layer.
 - Merge Order: Stacks must be merged bottom-up (base to top) to maintain valid dependency chains and avoid conflicts.
+- Smaller individual PRs
 - Parallel Review: Reviewers can evaluate small, focused changes independently, while developers avoid idle time waiting for approvals.
+
+---
+
+## Example
+- [Github](https://github.com/kyokley/jj-demo/pull/4)
+- [SCM](https://devops.oci.oraclecorp.com/devops-coderepository/repositories/ocid1.devopsrepository.oc1.phx.amaaaaaacflwtoaaggqdoh5enrop5pmbdifsymreme27wxmsaxva2ruaip4a/pull-requests-tabs/ocid1.devopspullrequest.oc1.phx.amaaaaaacflwtoaalthapjbo3fe6guvqg2x6h4vkdwexjq2qdbevi47qqkxa/information)
 
 ---
 
@@ -208,3 +215,22 @@ Notes:
 Some other highlights are:
 - Change abstraction allows for powerful actions
 - Revsets
+
+-v-
+
+## Other Takeaways
+Unlike git, jujutsu has no
+- index/staging area
+- branches
+- merge
+
+-v-
+
+## Other Takeaways
+Other cool jujutsu stuff:
+- parallelize
+- absorb
+- undo/redo
+- duplicate
+- split
+- squash
