@@ -20,8 +20,56 @@ Jujutsu is a git-compatible VCS with advanced features
 
 ---
 
+## WHY
+Because git is stupid <!-- .element: class="fragment" -->
+
+Notes:
+why do we need a new VCS tool?
+
+---
+
+## Seriously stupid
+<img src="./pics/stupid-git.png" class="r-stretch" />
+
+Notes:
+Taken directly from the man pages
+
+Git was designed to be extended and built on. It tries to be unopinionated.
+
+---
+
 ## :fearful:
 <img src="./pics/code-review-diff-stats-534441-additions-spark-reviewer-concern.webp" class="r-stretch" />
+
+Notes:
+Did anyone else's chest just get tight suddenly?
+
+---
+
+# The good, the bad, and the ???
+
+- :beaming_face_with_smiling_eyes: AI adoption completed 21% more tasks and merged 98% more pull requests <!-- .element: class="fragment" -->
+- :loudly_crying_face: PR review time increased by 91% <!-- .element: class="fragment" -->
+- :face_with_symbols_on_mouth: Average PR size grew by 154%, bug counts rose by 9% <!-- .element: class="fragment" -->
+
+[The Productivity-Reliability Paradox, Farrag](https://arxiv.org/pdf/2605.01160)
+
+Notes:
+- Wikipedia notes optimal code review conditions should expect a couple hundred lines per hour
+- 1k line code review should take 5 hours but probably longer
+    - with SCM unable to track progress
+    - reduced context from the original dev
+
+The Productivity-Reliability Paradox:
+Specification-Driven Governance for AI-Augmented
+Software Development
+by Sabry E. Farrag
+School of Architecture, Computing and Engineering
+University of East London, London, United Kingdom
+
+quoting Faros AI 2025 survey
+
+According to wikipedia effective code reviews break down any faster than a few hundred lines of code per hour of review
 
 ---
 
@@ -44,7 +92,10 @@ Notes:
 
 ## Example
 - [Github](https://github.com/kyokley/jj-demo/pull/4)
-- [SCM](https://devops.oci.oraclecorp.com/devops-coderepository/repositories/ocid1.devopsrepository.oc1.phx.amaaaaaacflwtoaaggqdoh5enrop5pmbdifsymreme27wxmsaxva2ruaip4a/pull-requests-tabs/ocid1.devopspullrequest.oc1.phx.amaaaaaacflwtoaalthapjbo3fe6guvqg2x6h4vkdwexjq2qdbevi47qqkxa/information)
+- [SCM](https://devops.oci.oraclecorp.com/devops-coderepository/repositories/ocid1.devopsrepository.oc1.phx.amaaaaaacflwtoaaggqdoh5enrop5pmbdifsymreme27wxmsaxva2ruaip4a/pull-requests-tabs/ocid1.devopspullrequest.oc1.phx.amaaaaaacflwtoaalthapjbo3fe6guvqg2x6h4vkdwexjq2qdbevi47qqkxa/information) <!-- .element: class="fragment strike" -->
+
+Notes:
+Even SCM has support? Just kidding
 
 ---
 
@@ -243,3 +294,10 @@ Other cool jujutsu stuff:
 - [Reviewing large changes with Jujutsu](https://ben.gesoff.uk/posts/reviewing-large-changes-with-jj/)
 - [Jujutsu: Managing workspaces](https://pksunkara.com/tech-notes/jujutsu-managing-workspaces/)
 - [Jujutsu For Busy Devs](https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs)
+
+---
+## References
+- [The Productivity-Reliability Paradox: Specification-Driven Governance for AI-Augmented Software Development](https://arxiv.org/pdf/2605.01160)
+- [Faros AI](https://www.faros.ai/)
+- [Introducing Stacked PRs in Devin](https://devin.ai/blog/introducing-pr-stacks)
+- [Code Review](https://en.wikipedia.org/wiki/Code_review)
