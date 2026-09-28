@@ -205,8 +205,8 @@ This image got cut off
 
 ## Takeaways
 - Jujutsu is pretty great
-- But no pressure!
-- Be kind to reviewers! Small targeted code reviews are best
+- But no pressure
+- Be kind to reviewers!
 
 Notes:
 
@@ -236,3 +236,10 @@ Other cool jujutsu stuff:
 - duplicate
 - split
 - squash
+
+---
+## Further Reading
+[Awesome JJ](https://github.com/chawyehsu/awesome-jj)
+- [Reviewing large changes with Jujutsu](https://ben.gesoff.uk/posts/reviewing-large-changes-with-jj/)
+- [Jujutsu: Managing workspaces](https://pksunkara.com/tech-notes/jujutsu-managing-workspaces/)
+- [Jujutsu For Busy Devs](https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs)
