@@ -48,14 +48,15 @@ Did anyone else's chest just get tight suddenly?
 
 # The good, the bad, and the ???
 
-- :beaming_face_with_smiling_eyes: AI adoption completed 21% more tasks and merged 98% more pull requests <!-- .element: class="fragment" -->
-- :loudly_crying_face: PR review time increased by 91% <!-- .element: class="fragment" -->
-- :face_with_symbols_on_mouth: Average PR size grew by 154%, bug counts rose by 9% <!-- .element: class="fragment" -->
+- :beaming_face_with_smiling_eyes: AI adoption completed 21% more tasks, merged 98% more pull requests <!-- .element: class="fragment" -->
+- :loudly_crying_face: PR review time increased by 91%, Average PR size grew by 154% <!-- .element: class="fragment" -->
+- :face_with_symbols_on_mouth: Bug counts rose by 9% <!-- .element: class="fragment" -->
 
 [The Productivity-Reliability Paradox, Farrag](https://arxiv.org/pdf/2605.01160)
 
 Notes:
 - Wikipedia notes optimal code review conditions should expect a couple hundred lines per hour
+    - According to wikipedia effective code reviews break down any faster than a few hundred lines of code per hour of review
 - 1k line code review should take 5 hours but probably longer
     - with SCM unable to track progress
     - reduced context from the original dev
@@ -69,7 +70,7 @@ University of East London, London, United Kingdom
 
 quoting Faros AI 2025 survey
 
-According to wikipedia effective code reviews break down any faster than a few hundred lines of code per hour of review
+This pattern is consistent with Goldratt’s Theory of Constraints: optimizing a non-bottleneck step (code generation) does not improve system throughput when the bottleneck step (code review and human approval) remains unchanged. Writing and testing code accounts for roughly 25–35% of the total SDLC; the remainder is consumed by review, requirements understanding, debugging, meetings, and documentation. AI tools are currently optimizing the minority share of the pipeline while inadvertently increasing the burden on the majority share.
 
 ---
 
