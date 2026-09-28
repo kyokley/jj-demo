@@ -46,7 +46,7 @@ Did anyone else's chest just get tight suddenly?
 
 ---
 
-# The good, the bad, and the ???
+## The good, the bad, and the ???
 
 - :beaming_face_with_smiling_eyes: AI adoption completed 21% more tasks, merged 98% more pull requests <!-- .element: class="fragment" -->
 - :loudly_crying_face: PR review time increased by 91%, Average PR size grew by 154% <!-- .element: class="fragment" -->
@@ -70,7 +70,24 @@ University of East London, London, United Kingdom
 
 quoting Faros AI 2025 survey
 
+
+-v-
+
+## The good, the bad, and the ???
+
+> AI tools are currently optimizing the minority share of the pipeline while inadvertently increasing the burden on the majority share.
+
+Notes:
+
 This pattern is consistent with Goldratt’s Theory of Constraints: optimizing a non-bottleneck step (code generation) does not improve system throughput when the bottleneck step (code review and human approval) remains unchanged. Writing and testing code accounts for roughly 25–35% of the total SDLC; the remainder is consumed by review, requirements understanding, debugging, meetings, and documentation. AI tools are currently optimizing the minority share of the pipeline while inadvertently increasing the burden on the majority share.
+
+-v-
+
+## The good, the bad, and the ???
+
+Graphite - [The ideal PR is 50 lines long](https://graphite.com/blog/the-ideal-pr-is-50-lines-long)
+
+> 50-line code changes are reviewed and merged ~40% faster than 250-line changes. They’re 15% less likely to be reverted than 250-line changes and have 40% more review comments per line changed. If your median PR is 50 lines long, you’re probably shipping 40% more total code than your teammate writing 200+ line PRs.
 
 ---
 
