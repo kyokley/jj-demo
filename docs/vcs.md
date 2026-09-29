@@ -280,7 +280,9 @@ This image got cut off
 ---
 
 ## Or just...
-Create a stacked PR skill
+Make AI do it?
+
+[SKILL.md](https://github.com/kyokley/jj-demo/blob/demo/stacked-jj-prs.md)
 
 ---
 
