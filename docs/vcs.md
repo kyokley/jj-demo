@@ -49,7 +49,7 @@ Did anyone else's chest just get tight suddenly?
 ## The good, the bad, and the ???
 
 - :beaming_face_with_smiling_eyes: AI adoption completed 21% more tasks, merged 98% more pull requests <!-- .element: class="fragment" -->
-- :loudly_crying_face: PR review time increased by 91%, Average PR size grew by 154% <!-- .element: class="fragment" -->
+- :loudly_crying_face: PR review time increased by 91%, average PR size grew by 154% <!-- .element: class="fragment" -->
 - :face_with_symbols_on_mouth: Bug counts rose by 9% <!-- .element: class="fragment" -->
 
 [Faros AI](https://www.faros.ai/) 2025 survey
