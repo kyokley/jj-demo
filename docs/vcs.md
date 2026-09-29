@@ -279,6 +279,11 @@ This image got cut off
 
 ---
 
+## Or just...
+Create a stacked PR skill
+
+---
+
 ## Takeaways
 - Jujutsu is pretty great
 - But no pressure
