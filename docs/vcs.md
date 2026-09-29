@@ -52,7 +52,7 @@ Did anyone else's chest just get tight suddenly?
 - :loudly_crying_face: PR review time increased by 91%, Average PR size grew by 154% <!-- .element: class="fragment" -->
 - :face_with_symbols_on_mouth: Bug counts rose by 9% <!-- .element: class="fragment" -->
 
-[The Productivity-Reliability Paradox, Farrag](https://arxiv.org/pdf/2605.01160)
+[Faros AI](https://www.faros.ai/) 2025 survey
 
 Notes:
 - Wikipedia notes optimal code review conditions should expect a couple hundred lines per hour
@@ -77,6 +77,9 @@ quoting Faros AI 2025 survey
 
 > AI tools are currently optimizing the minority share of the pipeline while inadvertently increasing the burden on the majority share.
 
+[The Productivity-Reliability Paradox](https://arxiv.org/pdf/2605.01160) - Sabry E. Farrag
+University of East London, London, United Kingdom
+
 Notes:
 
 This pattern is consistent with Goldratt’s Theory of Constraints: optimizing a non-bottleneck step (code generation) does not improve system throughput when the bottleneck step (code review and human approval) remains unchanged. Writing and testing code accounts for roughly 25–35% of the total SDLC; the remainder is consumed by review, requirements understanding, debugging, meetings, and documentation. AI tools are currently optimizing the minority share of the pipeline while inadvertently increasing the burden on the majority share.
@@ -85,9 +88,13 @@ This pattern is consistent with Goldratt’s Theory of Constraints: optimizing a
 
 ## The good, the bad, and the ???
 
-Graphite - [The ideal PR is 50 lines long](https://graphite.com/blog/the-ideal-pr-is-50-lines-long)
+> If your median PR is 50 lines long, you’re probably shipping 40% more total code than your teammate writing 200+ line PRs.
 
-> 50-line code changes are reviewed and merged ~40% faster than 250-line changes. They’re 15% less likely to be reverted than 250-line changes and have 40% more review comments per line changed. If your median PR is 50 lines long, you’re probably shipping 40% more total code than your teammate writing 200+ line PRs.
+[The ideal PR is 50 lines long](https://graphite.com/blog/the-ideal-pr-is-50-lines-long) - Graphite Blog
+
+Notes:
+
+50-line code changes are reviewed and merged ~40% faster than 250-line changes. They’re 15% less likely to be reverted than 250-line changes and have 40% more review comments per line changed. If your median PR is 50 lines long, you’re probably shipping 40% more total code than your teammate writing 200+ line PRs.
 
 ---
 
@@ -319,3 +326,4 @@ Other cool jujutsu stuff:
 - [Faros AI](https://www.faros.ai/)
 - [Introducing Stacked PRs in Devin](https://devin.ai/blog/introducing-pr-stacks)
 - [Code Review](https://en.wikipedia.org/wiki/Code_review)
+- [The ideal PR is 50 lines long](https://graphite.com/blog/the-ideal-pr-is-50-lines-long)
